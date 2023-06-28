@@ -3,3 +3,5 @@ vim
 make
 gcc
 fish
+libxinerama-dev
+libx11-dev
