@@ -8,3 +8,11 @@ swapsize 32
 maxroot 25
 
 proxmox@kruxers.in
+
+
+sources.list
+
+me enterprise wala comment
+also ceph wala comment
+
+and add download.proxmox...wgera in main
