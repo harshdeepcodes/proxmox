@@ -2,7 +2,7 @@ git
 vim
 make
 gcc
-fish
+zsh
 libxinerama-dev
 libx11-dev
 fonts-jetbrains-mono
@@ -16,5 +16,5 @@ libxc-res0-dev
 
 
 xorg
-
+alacritty
 xclip
