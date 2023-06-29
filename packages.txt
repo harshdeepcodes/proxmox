@@ -17,4 +17,4 @@ libxc-res0-dev
 
 xorg
 
-
+xclip
