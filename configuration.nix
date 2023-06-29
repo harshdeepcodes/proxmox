@@ -8,6 +8,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ./cachix.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
@@ -37,6 +38,8 @@
   # Enable the X11 windowing system.
   # services.xserver.enable = true;
 
+  #programs.sway.enable = true;
+  programs.hyprland.enable = true;
 
 
 
@@ -72,6 +75,7 @@
     neofetch
     xclip
     zsh
+    #hyperland
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -86,6 +90,10 @@
 
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;
+
+
+  #services.cachix.enable = true;
+
 
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
@@ -106,4 +114,9 @@
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "23.05"; # Did you read the comment?
 
+
+  nix.settings = {
+    substituters = ["https://hyprland.cachix.org"];
+    trusted-public-keys = ["hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="];
+  };
 }
