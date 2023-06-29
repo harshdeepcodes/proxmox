@@ -64,3 +64,9 @@ edit the configuration file: /mnt/etc/nixos/configuration.nix
 # nixos-install
 # reboot
 ```
+
+# Post
+
+```
+nix-env -iA cachix -f https://cachix.org/api/v1/install
+```
