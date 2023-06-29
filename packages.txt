@@ -5,4 +5,16 @@ gcc
 fish
 libxinerama-dev
 libx11-dev
+fonts-jetbrains-mono
+fonts-font-awesome
+---
+libxfont-dev
+libharfbuzz-dev
+apt-file
+libxc-res0-dev
+---
+
+
 xorg
+
+
