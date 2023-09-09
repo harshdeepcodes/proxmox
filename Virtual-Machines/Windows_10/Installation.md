@@ -1,4 +1,10 @@
-Download the Latest Virtio Drivers first by clicking [here](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso).
+# Windows 10
+
+## Prerequistes
+
+- Download the Latest Virtio Drivers first by clicking [here](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso).
+- Download the Windows 10 ISO from [here](https://www.microsoft.com/en-in/software-download/windows10ISO)
+
 
 **Windows 10 Config File:**
 agent: 1
